@@ -2,7 +2,7 @@
 /* Adds background color, font size, font type to body */
 body{
   background-color: rgb(247, 159, 207);
-  font-size: p;
+  font-size: 18px;
   font-family:Arial, Helvetica, sans-serif ;
 }
 
