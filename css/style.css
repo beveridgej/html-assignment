@@ -1,93 +1,76 @@
 
-
+/* Adds background color, font size, font type to body */
 body{
   background-color: rgb(247, 159, 207);
   font-size: p;
-  font-family:Arial, Helvetica, sans-serif;
+  font-family:Arial, Helvetica, sans-serif ;
 }
+
+/* adds color purple to header and footer */
 header,footer {
 background: rgb(89, 7, 182);
 }
+
+/* Adds color green to header 1 */
 .site-title{
   color: green;
 }
+
+/* Adds shadow box to image */
 #my-image{
   box-shadow: 0px 0px 2px 1px black 
 }
+
+/* Changes class=b bullet list to squares */
 ul.b{
   list-style-type: square;
 }
+
+/* Adds yellow background to class=b on odd list items */
 ul.b li:nth-child(odd){
 background-color: yellow;
-
 }
 
-
-
-
+/* Removes bullets from class=a unordered list */
 ul.a {
   list-style-type: none;
 }
+
+/* Removes underline from links */
 a:link {
   text-decoration:none;
 }
 
+/* Adds background color to links and gives border */
 ul.a {
-  list-style-type: none;
   margin: 0;
   padding: 0;
   width: 200px;
   background-color: #f1f1f1;
+  border: 2px solid rgb(0, 0, 0);
 }
 
-li a {
-  display: block;
-  color: #000;
-  padding: 8px 16px;
-  text-decoration: none;
-}
-
-/* Change the link color on hover */
-li a:hover {
-  background-color: #555;
-  color: white;
-}
-
+/* Makes the background link color cyan and text white when on active page */ 
 .active{
-  background-color: #04AA6D;
+  background-color: #96ecfd;
   color: white;
 }
 
-ul a{
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  width: 200px;
-  background-color: #f1f1f1;
-  border: 1px solid #555;
-}
-
+/* Makes text black on non active link gives padding to link blocks */
 li a {
   display: block;
-  color: #000;
+  color: rgb(0, 0, 0);
   padding: 8px 16px;
-  text-decoration: none;
 }
 
+/* Gives border to bottom of links and centers text in blocks */
 li a{
   text-align: center;
-  border-bottom: 2px solid #555;
+  border-bottom: 2px solid rgb(0, 0, 0);
 }
 
-li:last-child {
-  border-bottom: none;
-}
-
-li a.active {
-  background-color: #04AA6D;
-  color: white;
-}
-
+/* Makes non active link background black on hover and changes font color to white */
 li a:hover:not(.active) {
-  background-color: #555;
+  background-color: rgb(0, 0, 0);
   color: white;
+}
