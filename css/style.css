@@ -26,7 +26,7 @@ ul.b{
   list-style-type: square;
 }
 
-/* Adds yellow background to class=b on odd list items */
+/* Adds yellow background to unordered list class=b on odd list items */
 ul.b li:nth-child(odd){
 background-color: yellow;
 }
